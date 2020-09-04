@@ -67,3 +67,15 @@ wasm-pack publish
   for logging panic messages to the developer console.
 * [`wee_alloc`](https://github.com/rustwasm/wee_alloc), an allocator optimized
   for small code size.
+
+
+## 看看效果
+```
+npm install
+wasm-pack build
+npm run build
+cd dist
+npm install -g anywhere
+anywhere
+
+```
