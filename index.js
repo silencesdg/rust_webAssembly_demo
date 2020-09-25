@@ -1,4 +1,3 @@
-// import * as wasm from "./pkg/rw";
 
 // js
 document.getElementById("fileImport").addEventListener("click", function () {

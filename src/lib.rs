@@ -5,8 +5,7 @@ use std::io::{Cursor,SeekFrom,Seek,Read};
 use wasm_bindgen::prelude::*;
 use image::{self,DynamicImage,ImageFormat};
 use base64::{encode};
-// When the `wee_alloc` feature is enabled, use `wee_alloc` as the global
-// allocator.
+
 #[wasm_bindgen]
 pub fn grayscale(_array: &[u8]) -> Result<(), JsValue> {
     let mut img = load_image_from_array(_array);
